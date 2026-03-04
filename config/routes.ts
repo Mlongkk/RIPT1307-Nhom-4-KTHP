@@ -48,6 +48,18 @@
 	component: './TodoList',
 	icon: 'ArrowsAltOutlined',
 	},
+	{
+	path: '/one-two-three',
+	name: 'One Two Three',
+	component: './OneTwoThree',
+	icon: 'ArrowsAltOutlined',
+	},
+	{
+	path: '/quan-ly-ngan-hang',
+	name: 'Quản Lý Ngân Hàng',
+	component: './QuanLyNganHang',
+	icon: 'ArrowsAltOutlined',
+	},
 
 
 	// DANH MUC HE THONG
