@@ -2,7 +2,7 @@ import { landingUrl, unitName } from '@/services/base/constant';
 import { DefaultFooter } from '@ant-design/pro-layout';
 import { useIntl } from 'umi';
 
-export default () => {
+const Footer: React.FC = () => {
 	const intl = useIntl();
 	const defaultMessage = intl.formatMessage({
 		id: 'app.copyright.produced',
@@ -24,3 +24,4 @@ export default () => {
 		/>
 	);
 };
+export default Footer;

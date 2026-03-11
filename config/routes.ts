@@ -61,6 +61,16 @@
 	icon: 'ArrowsAltOutlined',
 	},
 
+{
+  path: '/appointment',
+  name: 'Lịch hẹn',
+  routes: [
+    { path: '/appointment/staff', name: 'Nhân viên', component: './Appointment/StaffPage' },
+    { path: '/appointment/service', name: 'Dịch vụ', component: './Appointment/ServicePage' },
+    { path: '/appointment/booking', name: 'Đặt lịch', component: './Appointment/BookingPage' },
+  ],
+},
+
 
 	// DANH MUC HE THONG
 	// {

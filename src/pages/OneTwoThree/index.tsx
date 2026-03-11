@@ -1,4 +1,6 @@
 import React, {useEffect, useState} from "react";
+import Login from "../user/Login";
+import MyDateRangePicker from "@/components/MyDatePicker/RangePicker";
 
 const OneTwoThree: React.FC = () => {
     const arr = ["Kéo", "Búa", "Bao"];
@@ -63,11 +65,10 @@ const OneTwoThree: React.FC = () => {
                     <li key={index}>{result}</li>
                 ))}
             </ul>
+            <MyDateRangePicker/>
+                <Login></Login>
         </div>
-
     );
-
-
 };
 
 export default OneTwoThree;
