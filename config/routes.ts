@@ -139,6 +139,12 @@ export default [
 			{ path: '/Destination/admin', name: 'Quản trị Admin', component: './Destination/admin' }
 		],
 	},
+	{
+		path: '/TH07',
+		name: 'Quản lý công việc',
+		icon: 'FileTextOutlined',
+		component: './TH07/index',
+	},
 
 
 	// DANH MUC HE THONG
