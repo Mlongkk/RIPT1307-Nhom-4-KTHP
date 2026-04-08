@@ -1,8 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react';
-import {
-    Button, Input, Select, DatePicker, Table, Form,
-    Card, Row, Col, Statistic, Modal
-} from 'antd';
+import {Button, Input, Select, DatePicker, Table, Form, Card, Row, Col, Statistic, Modal} from 'antd';
 import moment from 'moment';
 import { Calendar, momentLocalizer } from 'react-big-calendar';
 import 'react-big-calendar/lib/css/react-big-calendar.css';
@@ -27,7 +24,7 @@ const saveUsers = (users: string[]) => localStorage.setItem('users', JSON.string
 
 const normalize = (str: string) => str?.trim().toLowerCase();
 
-const App: React.FC = () => {
+const MyCalendar: React.FC = () => {
     const [user, setUser] = useState<string | null>(null);
     const [tasks, setTasks] = useState<Task[]>([]);
     const [users, setUsers] = useState<string[]>([]);
@@ -107,7 +104,7 @@ const App: React.FC = () => {
         setTasks(prev => prev.map(t => t.id === id ? { ...t, status } : t));
     };
 
-    // ===== FILTER FIX =====
+    // ===== FILTER=====
     const filtered = useMemo(() => {
         return tasks.filter(t => {
             return (
@@ -307,4 +304,4 @@ const App: React.FC = () => {
     );
 };
 
-export default App;
+export default MyCalendar;
