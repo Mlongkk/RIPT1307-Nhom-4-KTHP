@@ -32,12 +32,12 @@ export default [
 		component: './TienIch/GioiThieu',
 		hideInMenu: true,
 	},
-	{
-		path: '/random-user',
-		name: 'RandomUser',
-		component: './RandomUser',
-		icon: 'ArrowsAltOutlined',
-	},
+	// {
+	// 	path: '/random-user',
+	// 	name: 'RandomUser',
+	// 	component: './RandomUser',
+	// 	icon: 'ArrowsAltOutlined',
+	// },
 
 	// TH01
 
@@ -53,12 +53,12 @@ export default [
 	// 	component: './TodoList',
 	// 	icon: 'ArrowsAltOutlined',
 	// },
-	{
-		path: '/one-two-three',
-		name: 'One Two Three',
-		component: './OneTwoThree',
-		icon: 'ArrowsAltOutlined',
-	},
+	// {
+	// 	path: '/one-two-three',
+	// 	name: 'One Two Three',
+	// 	component: './OneTwoThree',
+	// 	icon: 'ArrowsAltOutlined',
+	// },
 
 	// TH02
 	// {
@@ -70,29 +70,29 @@ export default [
 
 
 	// TH03
-	{
-		path: '/appointment',
-		name: 'Lịch hẹn',
-		icon: 'FileTextOutlined',
-		routes: [
-			{ path: '/appointment/staff', name: 'Nhân viên', component: './Appointment/StaffPage' },
-			{ path: '/appointment/service', name: 'Dịch vụ', component: './Appointment/ServicePage' },
-			{ path: '/appointment/booking', name: 'Đặt lịch', component: './Appointment/BookingPage' },
-		],
-	},
+	// {
+	// 	path: '/appointment',
+	// 	name: 'Lịch hẹn',
+	// 	icon: 'FileTextOutlined',
+	// 	routes: [
+	// 		{ path: '/appointment/staff', name: 'Nhân viên', component: './Appointment/StaffPage' },
+	// 		{ path: '/appointment/service', name: 'Dịch vụ', component: './Appointment/ServicePage' },
+	// 		{ path: '/appointment/booking', name: 'Đặt lịch', component: './Appointment/BookingPage' },
+	// 	],
+	// },
 
 	// TH04
-	{
-		path: '/quanlyVanBang',
-		name: 'Quản lý văn bằng',
-		icon: 'FileTextOutlined',
-		component: './QuanLyVanBang',
-	},
+	// {
+	// 	path: '/quanlyVanBang',
+	// 	name: 'Quản lý văn bằng',
+	// 	icon: 'FileTextOutlined',
+	// 	component: './QuanLyVanBang',
+	// },
 
 	//TH05
 	// {
 	// 	path: '/club',
-	// 	name: 'Quản lý câu lạc bộ',
+	// 	name: 'TH05 - Quản lý câu lạc bộ',
 	// 	icon: 'FileTextOutlined',
 	// 	component: './TH05/Club',
 	// },
@@ -130,7 +130,7 @@ export default [
 	//TH06
 	{
 		path: '/Destination',
-		name: 'Quản lý điểm đến',
+		name: 'TH06 - Quản lý điểm đến',
 		icon: 'FileTextOutlined',
 		routes: [
 			{ path: '/Destination', name: 'Trang chủ', component: './Destination/index' },
@@ -141,9 +141,15 @@ export default [
 	},
 	{
 		path: '/TH07',
-		name: 'Quản lý công việc',
+		name: 'TH07 - Quản lý công việc',
 		icon: 'FileTextOutlined',
 		component: './TH07/index',
+	},
+	{
+		path: '/KtraGiuaKi',
+		name: 'Ktra giữa kì',
+		icon: 'FileTextOutlined',
+		component: './KtraGiuaKi/index',
 	},
 
 

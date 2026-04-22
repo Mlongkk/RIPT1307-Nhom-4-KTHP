@@ -11,6 +11,12 @@ declare module '*.bmp';
 declare module '*.tiff';
 declare module 'react-split-pane/lib/Pane';
 
+// 让 TypeScript 识别 umi 的 connect 方法
+declare interface AnyAction {
+  type: string;
+  payload?: any;
+}
+
 // preview.pro.ant.design only do not use in your production ;
 // preview.pro.ant.design Dedicated environment variable, please do not use it in your project.
 declare let ANT_DESIGN_PRO_ONLY_DO_NOT_USE_IN_YOUR_PRODUCTION: 'site' | undefined;
