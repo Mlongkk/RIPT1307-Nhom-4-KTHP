@@ -1,5 +1,7 @@
 {
 	"compilerOptions": {
+		//mới add
+		"ignoreDeprecations": "6.0",
 		"outDir": "build/dist",
 		"module": "esnext",
 		"target": "esnext",

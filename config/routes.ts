@@ -21,8 +21,8 @@ export default [
 	///////////////////////////////////
 	// DEFAULT MENU
 	{
-		path: '/dashboard',
-		name: 'Dashboard',
+		path: '/',
+		name: 'Trang chủ',
 		component: './TrangChu',
 		icon: 'HomeOutlined',
 	},
@@ -53,12 +53,12 @@ export default [
 	// 	component: './TodoList',
 	// 	icon: 'ArrowsAltOutlined',
 	// },
-	// {
-	// 	path: '/one-two-three',
-	// 	name: 'One Two Three',
-	// 	component: './OneTwoThree',
-	// 	icon: 'ArrowsAltOutlined',
-	// },
+	{
+		path: '/one-two-three',
+		name: 'One Two Three',
+		component: './OneTwoThree',
+		icon: 'ArrowsAltOutlined',
+	},
 
 	// TH02
 	// {
@@ -128,29 +128,29 @@ export default [
 
 
 	//TH06
-	{
-		path: '/Destination',
-		name: 'TH06 - Quản lý điểm đến',
-		icon: 'FileTextOutlined',
-		routes: [
-			{ path: '/Destination', name: 'Trang chủ', component: './Destination/index' },
-			{ path: '/Destination/planner', name: 'Lịch trình', component: './Destination/planner' },
-			{ path: '/Destination/budget', name: 'Ngân sách', component: './Destination/budget' },
-			{ path: '/Destination/admin', name: 'Quản trị Admin', component: './Destination/admin' }
-		],
-	},
-	{
-		path: '/TH07',
-		name: 'TH07 - Quản lý công việc',
-		icon: 'FileTextOutlined',
-		component: './TH07/index',
-	},
-	{
-		path: '/KtraGiuaKi',
-		name: 'Ktra giữa kì',
-		icon: 'FileTextOutlined',
-		component: './KtraGiuaKi/index',
-	},
+	// {
+	// 	path: '/Destination',
+	// 	name: 'TH06 - Quản lý điểm đến',
+	// 	icon: 'FileTextOutlined',
+	// 	routes: [
+	// 		{ path: '/Destination', name: 'Trang chủ', component: './Destination/index' },
+	// 		{ path: '/Destination/planner', name: 'Lịch trình', component: './Destination/planner' },
+	// 		{ path: '/Destination/budget', name: 'Ngân sách', component: './Destination/budget' },
+	// 		{ path: '/Destination/admin', name: 'Quản trị Admin', component: './Destination/admin' }
+	// 	],
+	// },
+	// {
+	// 	path: '/TH07',
+	// 	name: 'TH07 - Quản lý công việc',
+	// 	icon: 'FileTextOutlined',
+	// 	component: './TH07/index',
+	// },
+	// {
+	// 	path: '/KtraGiuaKi',
+	// 	name: 'Ktra giữa kì',
+	// 	icon: 'FileTextOutlined',
+	// 	component: './KtraGiuaKi/index',
+	// },
 
 
 	// DANH MUC HE THONG

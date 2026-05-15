@@ -40,6 +40,10 @@ export default defineConfig({
 	// Theme for antd: https://ant.design/docs/react/customize-theme-cn
 	theme: {
 		'primary-color': defaultSettings.primaryColor,
+		'secondary-color': defaultSettings.secondaryColor,
+		'background-color': defaultSettings.backgroundColor,
+		'text-color': defaultSettings.textColor,
+		'sidebar-bg': defaultSettings.sidebarBackgroundColor,
 		'border-radius-base': defaultSettings.borderRadiusBase,
 	},
 	// esbuild is father build tools

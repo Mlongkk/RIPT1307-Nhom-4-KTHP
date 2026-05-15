@@ -1,17 +1,25 @@
 import { Card } from 'antd';
 import './components/style.less';
 import { unitName } from '@/services/base/constant';
-import { useModel } from 'umi';
 
 const TrangChu = () => {
-	const { data } = useModel('randomuser');
-
 	return (
-		<Card bodyStyle={{ height: '100%' }}>
+		<Card
+			className="home-card-container"
+			bordered={false}
+			bodyStyle={{
+				height: '100%',
+				display: 'flex',
+				alignItems: 'center',
+				justifyContent: 'center'
+			}}
+		>
+
 			<div className='home-welcome'>
-				<div>
-					<b>{data.length} users</b>
-				</div>
+				<img src="logo.png" className='logo' />
+				<b className='text'>Bệnh viện Thú y ABC</b>
+				<br />
+
 				<h1 className='title'>THỰC HÀNH LẬP TRÌNH WEB</h1>
 				<h2 className='sub-title'>{unitName.toUpperCase()}</h2>
 			</div>
