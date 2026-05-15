@@ -6,6 +6,8 @@ import routes from './routes';
 // const { REACT_APP_ENV } = process.env;
 
 export default defineConfig({
+	history: { type: 'hash' }, // Thêm dòng này
+	
 	// fix antd not working in production
 	extraBabelPlugins: [],
 	styleLoader: {},
